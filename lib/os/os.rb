@@ -60,4 +60,6 @@ module OS
         end
     end
 
+    module_function :walk, :func_file_walk, :func_dir_walk, :func_walk
+
 end
